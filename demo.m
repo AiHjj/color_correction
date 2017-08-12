@@ -2,6 +2,8 @@ clc;close all;
 
 % [chart, patch_info] = generate_chart (1704, 2272, 100, 16, 240, 16, 240, 16, 240, 8, 16);
 
+branch_for_learning_git = 1;
+
 chart = load('chart.mat');
 chart = chart.chart;
 
